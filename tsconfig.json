@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["DOM", "DOM.Iterable", "WebWorker", "ES2021"],
+        "jsx": "preserve",
+        "outDir": "./build",
+        "rootDir": "./",
+        "strict": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+    },
+}
