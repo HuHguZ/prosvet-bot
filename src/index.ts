@@ -4,7 +4,7 @@ import { PRAYER_SCENE, prayerScene } from './scenes/prayer';
 import { ChurchUserWizardContext } from './types';
 
 const main = () => {
-    const bot = new Telegraf<Scenes.WizardContext>(telegramToken);
+    const bot = new Telegraf<ChurchUserWizardContext>(telegramToken);
 
     const stage = new Scenes.Stage<ChurchUserWizardContext>([prayerScene]);
 
